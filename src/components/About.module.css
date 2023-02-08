@@ -1,0 +1,53 @@
+.about {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-bottom: 200px;
+}
+
+.mainText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: underline;
+}
+
+.aboutBox {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutSkill {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skillList {
+    display: flex;
+}
+
+.skillList li {
+    padding-right: 30px;
+}
