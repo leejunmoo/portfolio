@@ -9,7 +9,7 @@ export default function About(props) {
         backgroundAttachment: 'fixed'
     }
   return (
-    <div className={aboutStyle.about} style={bgstyle}>
+    <div className={aboutStyle.about} style={bgstyle} id='about'>
         <div className={aboutStyle.mainText}>
             <h2>{props.title}</h2>
         </div>

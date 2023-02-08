@@ -11,7 +11,7 @@ export default function Main(props) {
         backgroundAttachment: 'fixed'
     }
   return (
-    <div className={mainStyle.main} style={bgstyle}>
+    <div className={mainStyle.main} id='main' style={bgstyle}>
         <Header />
         <div className={mainStyle.mainText}>
             <h2>{props.title}</h2>
