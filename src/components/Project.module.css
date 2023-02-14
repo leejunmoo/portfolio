@@ -39,6 +39,30 @@
     padding-bottom: 10px;
 }
 
+
+/* 이미지 hover 시 문단 등장 */
+.projectList .gilmaroImg:hover {
+    filter: brightness(20%);
+}
+
+.re {
+    position: relative;
+}
+
+
+.nohover {
+    display: none;
+}
+
+.hovertext {
+    position: absolute;
+    top: -180px;
+    left: 70px;
+    transition: 0.4s;
+    display: block;
+}
+
+
 /* 웹작품 문단 */
 .webP {
     margin-top: 28px;
@@ -69,4 +93,13 @@ p {
 
 .btnbox button:hover a {
     color: #000;
+}
+
+.hoverbox:hover {
+    filter: brightness(20%);
+    transition: 0.4s;
+}
+
+.re:hover .hoverbox {
+    filter: brightness(20%);
 }
