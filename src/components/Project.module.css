@@ -43,6 +43,7 @@
 /* 이미지 hover 시 문단 등장 */
 .projectList .gilmaroImg:hover {
     filter: brightness(20%);
+    transition: 0.4s;
 }
 
 .re {
@@ -57,7 +58,16 @@
 .hovertext {
     position: absolute;
     top: -180px;
-    left: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+    display: block;
+}
+
+.hovertext2 {
+    position: absolute;
+    top: -200px;
+    left: 60px;
     transition: 0.4s;
     display: block;
 }
@@ -101,5 +111,9 @@ p {
 }
 
 .re:hover .hoverbox {
+    filter: brightness(20%);
+}
+
+.re:hover .gilmaroImg {
     filter: brightness(20%);
 }
