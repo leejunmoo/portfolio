@@ -14,7 +14,6 @@ export default function Project(props) {
 
     const handleMouseOver = () => {
         setHovering(true);
-        console.log(hovering)
       };
 
       const handleMouseOut = () => {

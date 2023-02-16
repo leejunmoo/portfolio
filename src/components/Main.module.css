@@ -18,3 +18,16 @@
     align-items: center;
     justify-content: center;
 }
+
+
+/* Mobile ver */
+
+.mobileMain {
+    font-size: 50px;
+} 
+
+.mobileP {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 30px 100px 30px;
+}

@@ -13,3 +13,56 @@ header {
 nav a {
     padding-left: 30px;
 }
+
+
+/* Mobile ver */
+
+.mobileLogo {
+    font-size: 25px;
+}
+
+.mobileHedaer {
+    padding: 20px 30px 0 30px;
+}
+
+/* sitemap */
+.siteMenu {
+    width: 100%;
+    height: 267px;
+    opacity: 1;
+    position: fixed;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    transition: 1s;
+}
+
+.active {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+.siteMenu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* .siteMenu ul {
+   width: 100%;
+   height: 267px;
+   opacity: 1s;
+   position: fixed;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 999;
+} */
+
+.siteMenu ul a li {
+    border-bottom: 1px solid #fff;
+    padding: 0 0 25px 30px;
+}
