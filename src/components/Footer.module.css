@@ -13,3 +13,17 @@ footer {
 .textBox {
     padding: 10px;
 }
+
+/* Mobile ver */
+
+.mobiletextBox {
+    padding: 20px;
+}
+
+.mobileTop {
+    font-size: 16px;
+}
+
+.mobileBottom {
+    font-size: 14px;
+}

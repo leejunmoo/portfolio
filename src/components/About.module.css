@@ -42,12 +42,45 @@ ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
 
-.skillList {
+.skillList, .mobileskillList {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
 }
 
-.skillList li {
+/* .skillList li, .mobileskillList li {
     padding-right: 30px;
+} */
+
+
+/* Mobilde ver */
+.aboutMe {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mobileaboutBox {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mobileH3, .mobileProfile {
+    text-align: center;
+}
+
+.mobileskillList li {
+    margin-bottom: 50px;
+}
+
+.mobileUl {
+    margin-top: 50px;
 }

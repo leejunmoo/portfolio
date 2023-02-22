@@ -33,7 +33,7 @@
 }
 
 /* 길마로이미지 배율조정 */
-.projectList .gilmaroImg {
+.projectList .gilmaroImg, .mobilegilmaroImg {
     width: 230px;
     height: 430px;
     padding-bottom: 10px;
